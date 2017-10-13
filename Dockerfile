@@ -1,4 +1,4 @@
-FROM 952607548445.dkr.ecr.eu-central-1.amazonaws.com/graebert/fluorine-host:20171012.1
+FROM 952607548445.dkr.ecr.eu-central-1.amazonaws.com/graebert/fluorine-host:20171013.1
 ARG VERSION
 ARG STREAM=master
 ARG PACKAGE=fluorine
