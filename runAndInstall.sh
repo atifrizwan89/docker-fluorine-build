@@ -9,7 +9,7 @@ echo "Installing package $1 stream $2 latest version"
 /usr/bin/apt-get ---yes update && /usr/bin/apt-get ---yes --force-yes --allow-unauthenticated install "$1"-"$2" || exit $?
 fi
 
-unzip -j /opt/graebert-gmbh/Fluorine/fluorine-1.0.0-SNAPSHOT-fat.jar config.json -d /opt/graebert-gmbh/Fluorine/
+unzip -j /opt/graebert-gmbh/Fluorine/fluorine-*-fat.jar config.json -d /opt/graebert-gmbh/Fluorine/
 
 
 if [ -z "$LICENSING" ]; then
